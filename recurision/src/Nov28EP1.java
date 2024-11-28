@@ -6,7 +6,7 @@ public class Nov28EP1 {
     }
     public static int nthFeb(int n){
         if(n<=0){
-            throw new IllegalArgumentException("n must be a positive integer");
+            throw new IllegalArgumentException("n must be a positive integer ");
         }
         if(n<=2){
             return 1;
