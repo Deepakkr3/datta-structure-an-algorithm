@@ -1,3 +1,4 @@
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class Main {
@@ -12,7 +13,11 @@ public class Main {
 //        Predicate<Integer> isEven=(a)->a%2==0;
 //        System.out.println(isEven.test(4));
 
-        Predicate<String> isStartWithA=(str)->str.startsWith("A");
-        System.out.println(isStartWithA.test("SApple"));
+//        Predicate<String> isStartWithA=(str)->str.startsWith("A");
+//        System.out.println(isStartWithA.test("SApple"));
+
+        //function
+        Function<Integer,Integer> dubleIt=(x)->2*x;
+        System.out.println(dubleIt.apply(5));
     }
 }
